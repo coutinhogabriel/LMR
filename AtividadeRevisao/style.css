@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.nav {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    height: 70px;
+}
+
+.nav .linkMenu {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav .menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.container {
+    background: rgb(100, 238, 100);
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.container .linha1 {
+
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.container .linha1 .red {
+    background: red;
+    width: 22%;
+    height: 22vh;
+}
+
+.container .linha1 .blue {
+    background: blue;
+    width: 22%;
+    height: 22vh;
+}
+
+.container .linha1 .yellow {
+    background: yellow;
+    width: 22%;
+    height: 22vh;
+}
+
+.container .linha1 .purple {
+    background: purple;
+    width: 22%;
+    height: 22vh;
+}
+
+.container .linha2 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.container .linha2 .white {
+    background: white;
+    width: 22%;
+    height: 22vh;
+}
+
+.container .linha2 .black {
+    background: black;
+    width: 22%;
+    height: 22vh;
+}
+
+.container .linha2 .orange {
+    background: orange;
+    width: 22%;
+    height: 22vh;
+}
+
+.container .linha2 .pink {
+    background: pink;
+    width: 22%;
+    height: 22vh;
+}
