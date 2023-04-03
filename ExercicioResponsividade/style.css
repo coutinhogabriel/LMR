@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    margin: 0;
+    background-color: red;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 90%;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu .link {
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.hamb {
+    height: 90%;
+    display: none;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+.container .img{
+    height: 90%;
+}
+.texto {
+    position: absolute;
+    color: aliceblue;
+    margin-left: 400px;
+    top: 20%;
+    left: 50%;
+    width: 700px;
+    transform: translate(-230%, 60%);
+    background-color: rgba(224, 222, 218, 0.7);
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .hamb {
+        display: inline;
+    }
+}
